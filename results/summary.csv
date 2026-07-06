@@ -1,0 +1,3 @@
+strategy, total_return_pct, annualized_return_pct, sharpe_ratio, max_drawdown_pct, total_trades, winning_trades, win_rate_pct 
+SMA_Crossover(20, 50),-6.52804,-0.169977,0.0253768,54.4277,108,36,33.3333
+RSI_MeanReversion(14),-4.56228,-0.117605,0.0329837,47.505,106,69,65.0943
