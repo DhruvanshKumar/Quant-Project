@@ -1,9 +1,10 @@
 #include "Backtester.h"
+using namespace std;
 
 Backtester::Backtester(double initialCash)   // fixed: Backteseter -> Backtester
     : m_initialCash(initialCash) {}
 
-BacktestResult Backtester::run(Strategy& strategy, const std::vector<OHLCV>& data) {
+BacktestResult Backtester::run(Strategy& strategy, const vector<OHLCV>& data) {
     Portfolio port(m_initialCash);
     const int n = static_cast<int>(data.size());
 
